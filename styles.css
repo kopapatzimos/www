@@ -1,0 +1,142 @@
+body {
+		margin:0;
+		padding:0;
+		background-image: url('images/kalo.jpeg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		font-family: "Times New Roman", Times, serif;
+
+}
+
+.footer2{
+	text-align:right;
+	font-size:12px;
+	color: Darkred;
+	position :absolute;
+	bottom:-10px;
+	width:100%;
+	
+}
+
+.footer1{
+	text-align:right;
+	font-size:12px;
+	color: Darkred;
+	position :absolute;
+	bottom:-110px;
+	width:100%;
+	
+}
+
+/*---HOME BUTTON---*/
+
+.home img{
+	position :fixed;
+	top : 25%;
+	left : 20%;
+	border-radius: 50px;
+}
+.home img:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+}
+	
+/*---ABOUT ME BUTTON---*/
+
+.about img{
+	position :fixed;
+	top : 45%;
+	left : 19%;
+	border-radius: 25px;
+	padding: 20px; 
+}
+
+.about img:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}  
+
+/*---CONTACT BUTTON---*/
+
+.contact img{
+	position :fixed;
+	top : 68%;
+	left : 18%;
+	border-radius: 25px;
+	padding: 20px; 
+}
+.contact img:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+}
+
+
+
+
+/*---HOME PAGE---*/
+
+
+.name  {
+	color:black;
+	position:absolute  ;
+	top:60%;
+	left:35%;
+	text-align:center;
+	font-size:150%;
+}
+
+
+.profile img{
+	position :absolute;
+	top : 24%;
+	left : 55%;
+	border-radius: 50px;
+}
+
+
+
+/*---ABOUT ME PAGE---*/
+.about_top{
+	color:Tomato;
+	position:absolute;
+	top:0%;
+	left:40%;
+	text-align:center;
+	font-size:150%
+}
+
+.info {
+	position:absolute;
+	top:20%;
+	left: 40%;
+	font-size:150%;
+
+	
+}
+
+
+/*---CONTACT PAGE---*/
+.find_me_on{
+	position:absolute;
+	top:15%;
+	left: 40%;
+	font-size:150%;
+	
+}
+.github{
+	position:absolute;
+	top:45%;
+	left: 40%;
+	font-size:150%;
+}
+.email{
+	position:absolute;
+	top:75%;
+	left: 40%;
+	font-size:150%;
+}
